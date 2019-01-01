@@ -1,0 +1,60 @@
+{
+  "name": "grpc-graphql-sdk",
+  "version": "0.1.2",
+  "description": "gRPC GraphQL",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "keywords": [
+    "grpc",
+    "graphql"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "start": "node ./lib/index.js",
+    "start:dev": "nodemon --ignore lib/ --exec ts-node ./src/index.ts",
+    "test": "jest --config jestconfig.json",
+    "prebuild": "rm -rf lib",
+    "build": "tsc -p tsconfig.prod.json",
+    "postbuild": "copyfiles -u 1 src/protos/* lib",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint --fix src/**/*.ts",
+    "prepublishOnly": "yarn lint & yarn test & yarn build"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "yarn lint",
+      "yarn test"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@types/jest": "^25.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "copyfiles": "^2.2.0",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5",
+    "jest": "^25.3.0",
+    "lint-staged": "^10.1.3",
+    "nodemon": "^2.0.3",
+    "ts-jest": "^25.3.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
+    "diana-js": "^0.6.0",
+    "grpc": "^1.24.2",
+    "hera-js": "^0.2.0",
+    "juno-js": "^0.0.3"
+  }
+}
