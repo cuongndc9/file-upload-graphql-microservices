@@ -43,4 +43,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-<!-- INSPIRATIONAL_QUOTE_START -->\nAction beats perfection.\n🦄\n<!-- INSPIRATIONAL_QUOTE_END -->
