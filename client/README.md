@@ -46,5 +46,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 <!-- INSPIRATIONAL_QUOTE_START -->
 Action beats perfection.
-🐯
+🦄
 <!-- INSPIRATIONAL_QUOTE_END -->
