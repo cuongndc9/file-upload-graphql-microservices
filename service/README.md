@@ -1,5 +1,5 @@
 # service-template
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "Don't be afraid to give up the good to go for the great." - John D. Rockefeller
+> "Success is not how high you have climbed, but how you make a positive difference to the world." - Roy T. Bennett
 <!-- INSPIRATIONAL_QUOTE_END -->

@@ -3,5 +3,5 @@
 🌱 TypeScript template
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "Don't be afraid to give up the good to go for the great." - John D. Rockefeller
+> "Don't let yesterday take up too much of today." - Will Rogers
 <!-- INSPIRATIONAL_QUOTE_END -->

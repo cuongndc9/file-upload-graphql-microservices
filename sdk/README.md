@@ -9,5 +9,5 @@ A TypeScript template 🌼 for npm package
 MIT © [Cuong Nguyen](https://www.linkedin.com/in/cuong9/)
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "We may encounter many defeats but we must not be defeated." - Maya Angelou
+> "If you are working on something that you really care about, you don't have to be pushed. The vision pulls you." - Steve Jobs
 <!-- INSPIRATIONAL_QUOTE_END -->

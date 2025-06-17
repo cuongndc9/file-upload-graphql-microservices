@@ -45,5 +45,5 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "The way to get started is to quit talking and begin doing." - Walt Disney
+> "It's not whether you get knocked down, it's whether you get up." - Vince Lombardi
 <!-- INSPIRATIONAL_QUOTE_END -->
