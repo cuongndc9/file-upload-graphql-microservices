@@ -1,5 +1,5 @@
 # service-template
 
 <!-- INSPIRATIONAL_QUOTE_START -->
-> "The future belongs to those who believe in the beauty of their dreams." - Eleanor Roosevelt
+> "The way to get started is to quit talking and begin doing." - Walt Disney
 <!-- INSPIRATIONAL_QUOTE_END -->
